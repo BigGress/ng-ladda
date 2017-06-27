@@ -1,6 +1,6 @@
 # Ladda
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.1.3.
+Move Ladda to angular, the interaction is same with (http://lab.hakim.se/ladda/);
 
 ## Development server
 
