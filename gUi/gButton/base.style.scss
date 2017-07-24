@@ -1,0 +1,27 @@
+$size: 32px;
+$loadingSize: 32px;
+button {
+    cursor: pointer;
+    min-width: $size * 2;
+    min-height: $size;
+    border: none;
+    color: #fff;
+    background: #2aca76;
+    outline: none;
+    border-radius: 2px;
+    padding: 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px 0;
+    .loading-box {
+        display: flex;
+        width: $loadingSize;
+        height: $loadingSize;
+        align-items: center;
+        justify-content: center;
+    }
+    .content {
+        vertical-align: middle;
+    }
+}

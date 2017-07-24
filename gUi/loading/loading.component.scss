@@ -1,0 +1,27 @@
+$imageSize: 24px;
+div {
+    width: $imageSize;
+    height: $imageSize;
+    background-size: $imageSize $imageSize;
+    animation: rotate 1s linear infinite;
+    &.loading {
+        &.default {
+            background-image: url("./images/Loading-white.png");
+        }
+        &.gray {
+            background-image: url("./images/Loading-gray.png");
+        }
+        &.black {
+            background-image: url("./images/Loading.png");
+        }
+    }
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateZ(0deg);
+    }
+    100% {
+        transform: rotateZ(360deg);
+    }
+}
