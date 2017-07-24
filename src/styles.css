@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+
+.loading.default {
+    background-image: url("./assets/images/Loading-white.png");
+}
+
+.loading.gray {
+    background-image: url("./assets/images/Loading-gray.png");
+}
+
+.loading.black {
+    background-image: url("./assets/images/Loading.png");
+}
