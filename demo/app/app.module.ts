@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { UIComponentModule } from '../../gUi/ui.module';
+import { UIComponentModule } from '../../src/gUi/ui.module';
 
 import { AppComponent } from './app.component';
 
@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   ],
   imports: [
     BrowserModule,
-    UIComponentModule,
+    UIComponentModule.forRoot(),
   ],
   providers: [],
   bootstrap: [AppComponent]

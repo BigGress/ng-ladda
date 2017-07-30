@@ -3,7 +3,6 @@ div {
     width: $imageSize;
     height: $imageSize;
     background-size: $imageSize $imageSize;
-    animation: rotate 1s linear infinite;
     &.loading {
         &.default {
             background-image: url("./images/Loading-white.png");
@@ -14,6 +13,9 @@ div {
         &.black {
             background-image: url("./images/Loading.png");
         }
+    }
+    &.rotate {
+        animation: rotate 1s linear infinite;
     }
 }
 

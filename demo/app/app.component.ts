@@ -22,7 +22,8 @@ export class AppComponent {
     data.return = new Promise((res) => {
       setTimeout(() => {
         res('next')
-      }, 500)
+      }, 5000)
     })
   }
 }
+
